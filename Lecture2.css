@@ -1,0 +1,94 @@
+body {background-color: #9bcdff;}
+
+header {
+
+	display: block;
+	margin: 20px 10px 80px 10px;
+
+}
+
+ol#pics li{
+
+	position: relative;
+	float: left;
+	margin: 0 15px 0 0;
+	padding: 10px;
+	background: #444; 
+	background: rgba(255,255,255, 0.1);
+	list-style: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+
+}
+
+ol#pics li a {
+
+float: left;
+width: 137px;
+height: 91px;
+background: url(img/bg.gif);
+no-repeat top left;
+
+}
+
+ol#pics li a img {
+
+	position: absolute;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+
+}
+
+ol#pics li#photo-1 a img {
+
+	width: 100px;
+	top: 29px;
+	left: 30px;
+
+}
+
+ol#pics li#photo-2 a img {
+
+	width: 100px;
+	top: 25px;
+	left: 25px;
+
+}
+
+ol#pics li#photo-3 a img {
+
+	width: 150px;
+	top: 10px;
+	left: 05px;
+
+}
+
+ol#pics li#photo-1 a:hover img {
+
+	top: 25px;
+	left: 70px;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+
+}
+
+ol#pics li#photo-2 a:hover img {
+
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	-transform: rotate(-15deg);
+
+}
+
+ol#pics li#photo-3 a:hover img {
+
+	opacity: 0.4;  
+
+}
